@@ -16,7 +16,6 @@ class Solution:
             if visited[i] == 0:
                 dfs(i)
                 res += 1
-                print(visited)
 
         return res
 
